@@ -1,0 +1,355 @@
+﻿/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Eléments principaux de la page */
+
+body
+{
+    background: url('images/fond_jaune.png');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+section h1, nav a
+{
+    font-family: 'Comic Sans MS', serif;
+    font-weight: normal;
+    /*text-transform: uppercase;*/
+}
+
+/* Header */
+
+#titre_principal
+{
+    display: inline-block;
+}
+
+header h1
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+#logo, header h1
+{
+    display: inline-block;
+    margin-bottom: -5px;
+}
+
+header h2
+{
+    font-family: 'Comic Sans MS', serif;
+    font-size: 1.2em;
+    margin-top: 0px;
+	margin-left : 16px;
+    font-weight: normal;
+}
+
+#deadline
+{
+	display:inline-block;
+	position:absolute;
+	top:50px;
+	left:710px;
+}
+
+#compte
+{
+	display:inline-block;
+	position:absolute;
+	font-weight : bold;
+	left: 900px;
+	top: 50px;
+}
+
+/* Navigation */
+
+nav
+{
+    display: inline-block;
+    width: 250px;
+	height:550px;
+    text-align: left;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.2em;
+    color: Blue;
+    padding-bottom: 3px;
+    text-decoration: underline;
+}
+
+nav a:hover
+{
+    color: #760001;
+}
+
+/* Corps */
+
+section
+{
+	display:inline-block;
+	position: absolute;
+	top : 150px;
+    width: 625px;
+	height : 500px;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+section h1
+{
+	display:inline-block;
+	text-align:center;
+	position: relative;
+	margin-top:2px;
+	margin-left:60px;
+	width:500px;
+}
+
+section h2
+{
+	font-size:1.2em;
+	font-style:italic;
+	text-decoration:underline;
+	color: #060d32;
+	margin-top:-2px;
+}
+
+#depart1
+{
+	display:inline-block;
+	position: absolute;
+	top : 130px;
+	left: 100px;
+	width:170px;
+	background-color: green;
+	box-shadow: 0px 2px 5px #083206;
+	border-radius: 10px;
+	padding: 5px;
+	padding-left:10px;
+}
+
+#depart2
+{
+	display:inline-block;
+	position: absolute;
+	top : 130px;
+	left : 350px;
+	width:170px;
+	background-color: green;
+	box-shadow: 0px 2px 5px #083206;
+	border-radius: 10px;
+	padding: 5px;
+	padding-left:10px;
+}
+
+#depart3
+{
+	display:inline-block;
+	position: absolute;
+	top : 320px;
+	left:100px;
+	width: 170px;
+	background-color: green;
+	box-shadow: 0px 2px 5px #083206;
+	border-radius: 10px;
+	padding: 5px;
+	padding-left:10px;
+}
+
+#depart4
+{
+	display:inline-block;
+	position: absolute;
+	top : 320px;
+	left: 350px;
+	width:170px;
+	background-color: green;
+	box-shadow: 0px 2px 5px #083206;
+	border-radius: 10px;
+	padding: 5px;
+	padding-left:10px;
+}
+
+#depart1 h3, #depart2 h3, #depart3 h3, #depart4 h3
+{
+	text-decoration:none;
+}
+
+#table_form
+{
+	font-size: 1.5em;
+	margin-left:100px;
+}
+
+#depart
+{
+	color:red;
+}
+
+#input_box
+{
+	margin-left:20px;
+	width:250px;
+	height: 20px;
+}
+
+.btn-primary {
+  color: #ffffff;
+  height: 30px;
+  position:absolute;
+  bottom:25px;
+  left:400px;
+  font-size:16px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #006dcc;
+  *background-color: #0044cc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+  color: #ffffff;
+  background-color: #0044cc;
+  *background-color: #003bb3;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #003399 \9;
+}
+
+.btn-danger {
+  color: #ffffff;
+  height: 30px;
+  position:absolute;
+  bottom:25px;
+  left:100px;
+  font-size:16px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #da4f49;
+  *background-color: #bd362f;
+  background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
+  background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
+  background-repeat: repeat-x;
+  border-color: #bd362f #bd362f #802420;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
+.btn-danger[disabled] {
+  color: #ffffff;
+  background-color: #bd362f;
+  *background-color: #a9302a;
+}
+
+.btn-danger:active,
+.btn-danger.active {
+  background-color: #942a25 \9;
+}
+
+/* Footer */
+
+footer
+{
+    padding-top: 0px;
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+/* Correctifs pour les vieilles versions d'Internet Explorer */
+
+/* Pour activer un positionnement type inline-block sur les vieilles versions d'IE */
+
+.old_ie #titre_principal, .old_ie #logo, .old_ie header h1, .old_ie nav, .old_ie nav li, .old_ie .bouton_rouge, .old_ie article, .old_ie aside, .old_ie #tweet, .old_ie #mes_photos, .old_ie #mes_amis, .old_ie #mes_amis ul
+{
+    display: inline;
+    zoom: 1;
+}
+
+/* Quelques ajustements pour les vieilles versions d'IE */
+
+.old_ie section h1, .ie8 section h1
+{
+    font-size: 1.1em;
+}
+
+.old_ie footer div, .ie8 footer div
+{
+    margin-top: 30px;
+    background: url('images/separateur.png') repeat-x top;
+}
